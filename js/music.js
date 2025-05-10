@@ -5,7 +5,7 @@ class Music {
     this.load(name);
   }
   load(name) {
-    this.audio.src = `../plainGame/mp3/${name}.mp3`;
+    this.audio.src = `../mp3/${name}.mp3`;
   }
   play() {
     if (this.audio.readyState === 4) {
